@@ -16,15 +16,17 @@ SPEC mạnh nhất / yếu nhất
 Đóng góp khác (ngoài coding chính)
 
 *  Đóng góp đưa ý kiến về quyết định mỗi Agent cần được cung cấp những dữ liệu gì từ GitHub (chỉ cần diff, hay cần cả lịch sử commit?) để ra được quyết định tốt nhất mà không gây nhiễu.
+* Test rất nhiều trường hợp prompt
+
 
 Điều học được hoàn toàn mới
 
-* Hiểu về thiết kế luồng Agentic Workflow và các phối hợp team trong quá trình Pull Request.
+* Hiểu về thiết kế luồng Agentic Workflow và các phối hợp team trong quá trình Pull Request. -> Hiểu hơn về vận hành github trong 1 team
 * Phải luôn code các lớp fallback vì không có gì đảm bảo AI sẽ luôn trả về kết quả giống nhau ở các lần chạy khác nhau.
 
 Nếu làm lại, sẽ đổi gì?
 
-* Thử nghiệm tích hợp GraphRAG thẳng vào ai-core. Thay vì cung cấp dạng text thuần túy cho Context Agent, việc sử dụng các graph db như Neo4j để lưu trữ mối quan hệ giữa các module trong source code giúp model biết được file session.ts này tác động đến bao nhiêu hàm khác.
+* Thử nghiệm tích hợp GraphRAG thẳng vào ai-core. Thay vì cung cấp dạng text thuần túy cho Context Agent, việc sử dụng các graph db như Neo4j để lưu trữ mối quan hệ giữa các module trong source code giúp model biết được file session.ts này tác động đến bao nhiêu hàm khác. -> Có thể khả thi và output có thể tốt hơn.
 
 AI giúp gì? Sai ở đâu?
 
